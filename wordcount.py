@@ -22,6 +22,8 @@ def word_count(txt_file):
 
     script.close()
 
+    return word_count
+
 
 # def make_letter_counts_dict(phrase):
 #     letter_counts = {}
