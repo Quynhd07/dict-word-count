@@ -4,7 +4,7 @@ def word_count(txt_file):
     # create empty dict
     word_count = {}
 
-    def line_stripper(txt_file):
+    def line_stripper():
         """Take a test file and strip it by whitespace and space inbetween words."""
 
         script_list = []
